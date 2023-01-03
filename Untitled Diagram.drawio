@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T12:35:06.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="gCycYy00_ujjKWIUmvC7" version="20.8.0" type="github"><diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">7Vttb5s6GP01SHcfVoEJSfuxYckmLbmr2m77eOWCA9YIRsZ526+fDTaEOGlhd2m8JlLUwMMTg59zfGyfJpbrz9cfKcziKQlRYgE7XFvuBwsABwCXv4nIpowMbgZlIKI4lEl14AH/RDJoy+gChyhvJDJCEoazZjAgaYoC1ohBSsmqmTYjSfOuGYyQFngIYKJHv+OQxWX02rPr+CeEo1jd2bHllTlUyTKQxzAkq0YIrdmYpEw+4h2ic5iilPErU0h/IGp5o5gx0dNbC4z5ayayryJCogTBDOdXAZnzcJDzlPEMznEiyrzV0FA2xG/njizXp4Sw8mi+9lEisFIwlM80PnC1qgMV7bb4gP9+uZn8sFn6aeV+Y9NpdDd4ei9bWcJkIesra8M2quAo5PWXp/xWmG3uUQIZJumovjJEaXgr0OVJo/ufiJJHMoUp7/wwZ5Cy+hpJZfoY88dzPzgqRZ7b/FzvmnzOnCxogJ7pD+hJSkIaIfZMYl8CHjbYJiv3EZE5YnTDE1Y1xyomxdv8UkFaFGXZZCmUTIqqBqt73BFcEEsOTLcn21HDUlFSNVF2XX5qG+adhno7DfV3GypLozXED7Y6XocKFnVhFHhjlHJbMsoZGEapnt1kgnP9u5TqNxsCtveqlNIZ9YWGiOYar7iiZ+KQwaeCQQUJ5BTmChbwSYlBnHL9LVkSkCSBWY6L9DIS4yScwA1ZMNWQOhvO8BqF9+UMJnI5/ya8sVxSTMwFitXiMkxwlPLjgFNO3HFIUc6fZQJzJjMOknKJKEPrZ1mksPF2QFbDfYtlwNvHMtc+TKgGgl3hcl8WAAUU7zrDMLnnCwWYRgVmTUhEXUNKskc1+kQgE0RDdLRE5VRdFJ8PdZ8kRCCbloJQpBWd84b8xbvr21ee5fEH8Pm5U5/zl0inzCdpzijEBRyIA7VCAqwhI5m8T4Jm6jGoLKY4fiKM8Zn/EKzP0vplrCW2bktoj4ZsT0P27nMXbAnv6ywpVDvGYYjSckiKdSKs8d4D5d76VzXfBWN3ILbEw22NxxYA7mvW39PqT4QQ/sc/5APr1i5V+98vj+Lv18nEqpa6JsGjdLHMHeYZDHAaTcpP9nfw846B39o6OJ7Aa+LZP2el3L8q+zNK2T+1Ug40ZMefnS7gvtJYbAlAvzUAp5LGa63gwSLnfS7VEeyRRuOweFEX/zhYpujgzUUHj6ODN6fWQeUa/ia0ZqngTevyn0oFHd3PK1eIIWSIx+XbWchge7RMkUFH3zk/xDibF6J18To0rwNct5S343kdjr4lPqOpq8Pm2mm/OzPF7XD07fZbsjsq6ho8nekb5FwK4sXz6AqiMbOcvjc+I8nssNzsLpkntz0cfRv+V/seFVcN1kh981yZwmdle3TAyhQpBP9vd3yRQoOdD6BvxQ0cfC3rXxHVXB1U5d23VjxD96MDYsaooW5/+NLDv9gf1tZXOzp/1cM+GmQX+6PlcPz77A/wtu0PYL79AXT746V/ap6T99EBQWOmuIv3cSy9PLn3AXTvw8DB2Lb+5hsfQDc+KnVM4Vys9IMY0n88+93ZLPpNskD4af3jlvKr4PUvktzRLw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-03T15:23:30.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="dWs8yZnmqtqHeTDlQl8P" version="20.8.0" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="896" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-3" value="students" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-4" value="firstName (string)&#xa;lastName (string)&#xa;email (string)&#xa;dateRegistered (date)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="TUjFkqB4MpRaAjQye1uv-3">
+          <mxGeometry y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-6" value="courses" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-7" value="title&#xa;price&#xa;instructor&#xa;tags" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="TUjFkqB4MpRaAjQye1uv-6">
+          <mxGeometry y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-8" value="&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Creating a &lt;b&gt;&lt;u&gt;&lt;font style=&quot;background-color: rgb(26, 26, 26);&quot; color=&quot;#009900&quot;&gt;CONCEPTUAL&lt;/font&gt;&lt;/u&gt;&lt;/b&gt; db model utilizing entity relationship for a course and its students&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-13" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Creating a &lt;b&gt;&lt;u&gt;&lt;font style=&quot;background-color: rgb(0, 0, 0);&quot; color=&quot;#009900&quot;&gt;LOGICAL&lt;/font&gt;&lt;/u&gt;&lt;/b&gt; db model utilizing entity relationship for a course and its students&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-22" value="students" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="85" y="450" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-23" value="firstName (string)&#xa;lastName (string)&#xa;email (string)&#xa;dateRegistered (date)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="TUjFkqB4MpRaAjQye1uv-22">
+          <mxGeometry y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-24" value="courses" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="525" y="450" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-25" value="title (string)&#xa;price (float)&#xa;instructor (string)&#xa;tags (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="TUjFkqB4MpRaAjQye1uv-24">
+          <mxGeometry y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-26" value="enrollments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="610" width="215" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-27" value="date (dateTime)&#xa;price (float)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="TUjFkqB4MpRaAjQye1uv-26">
+          <mxGeometry y="30" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-28" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TUjFkqB4MpRaAjQye1uv-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="205" y="650" as="sourcePoint" />
+            <mxPoint x="315" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-29" value="A student&lt;br&gt;can have multiple&lt;br&gt;enrollments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="TUjFkqB4MpRaAjQye1uv-28">
+          <mxGeometry x="0.4451" y="1" relative="1" as="geometry">
+            <mxPoint x="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-30" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.007;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TUjFkqB4MpRaAjQye1uv-25" target="TUjFkqB4MpRaAjQye1uv-27">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="655" y="690" as="sourcePoint" />
+            <mxPoint x="545" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="712" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-31" value="Each enrollment can&lt;br&gt;be for a particular&lt;br&gt;course" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="TUjFkqB4MpRaAjQye1uv-30">
+          <mxGeometry x="0.4451" y="1" relative="1" as="geometry">
+            <mxPoint x="46" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-32" value="" style="fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;strokeWidth=2;entryX=-0.008;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TUjFkqB4MpRaAjQye1uv-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="178" as="sourcePoint" />
+            <mxPoint x="510" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-33" value="enrolls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="TUjFkqB4MpRaAjQye1uv-32">
+          <mxGeometry x="0.0448" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUjFkqB4MpRaAjQye1uv-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry x="1" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419.5" y="260" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+            <mxPoint x="-20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
